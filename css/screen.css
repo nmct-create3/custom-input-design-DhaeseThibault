@@ -693,6 +693,20 @@ input::placeholder {
     box-shadow: none;
 }
 
+/*
+    Component: custom options
+    ---
+    Class to put on adjeacent sibling selector
+*/
+.c-option--hidden:checked + .c-custom-option {
+    background-color: red;
+}
+
+.c-option--hidden:checked + .c-custom-option .c-custom-option__symbol{
+    fill: blue;
+}
+
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
